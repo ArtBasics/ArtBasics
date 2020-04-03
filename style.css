@@ -75,4 +75,6 @@ p {
   width:50%;
   border:10px black solid;
   padding:20px;
+  background-color: #FFFFFF;
+  z-index: 1;
 }
