@@ -56,7 +56,7 @@ body {
 	background-image: url("logo.png");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-size: cover;
+	background-size: 100% 100%;
 }
 
 h1 {
@@ -64,7 +64,7 @@ h1 {
 	font-size: 15vw;
 	font-style: normal;
 	font-variant: normal;
-	font-weight: 700;
+	font-weight: 300;
 	line-height: 160px;
 	text-align: center;
 	border-left: 10px;
@@ -91,5 +91,6 @@ width: 100%;
 }
 
 #chillin {
-	
+	height: 100%;
+	width: 100%;
 }
