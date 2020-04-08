@@ -17,10 +17,12 @@ They work together to create works and performances which combine their practice
 * *Henry Jock Walker*
 * *Liam Sommerville*
 * *Tom Hannagan*
-* *Arlon HallHari Koutlakis*
+* *Arlon Hall*
+* *Hari Koutlakis*
 * *Mat Morison*
 * *Emmaline Zanelli*
-* *Kaspar Schmidt Mummand Daria Koljanin*
+* *Kaspar Schmidt Mumm*
+* *Daria Koljanin*
 
 #### Digital Playground / Website
 Developed by Lachlan Stewart & Rafal Liszewski of http://www.smallroom.com.au
