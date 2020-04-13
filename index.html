@@ -1,63 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
+    <head>
+        <meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>The Bait Fridge - Art Basics</title>
 		<link rel="stylesheet" type="text/css" media="screen" href="style.css">
-		<script>dragElement(document.getElementById("mydiv"));
+    </head>
 
-function dragElement(elmnt) {
-  var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
-  if (document.getElementById(elmnt.id + "header")) {
-    // if present, the header is where you move the DIV from:
-    document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
-  } else {
-    // otherwise, move the DIV from anywhere inside the DIV: 
-    elmnt.onmousedown = dragMouseDown;
-  }
+    <body>
 
-  function dragMouseDown(e) {
-    e = e || window.event;
-    e.preventDefault();
-    // get the mouse cursor position at startup:
-    pos3 = e.clientX;
-    pos4 = e.clientY;
-    document.onmouseup = closeDragElement;
-    // call a function whenever the cursor moves:
-    document.onmousemove = elementDrag;
-  }
+        <div class='draggable' id="g_img">
+            <p><span class="top"><img class="drag_img" src="images/group.jpeg">Group Photo</span></p>
+        </div>
 
-  function elementDrag(e) {
-    e = e || window.event;
-    e.preventDefault();
-    // calculate the new cursor position:
-    pos1 = pos3 - e.clientX;
-    pos2 = pos4 - e.clientY;
-    pos3 = e.clientX;
-    pos4 = e.clientY;
-    // set the element's new position:
-    elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
-    elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
-  }
+        <div class='draggable' id="d_img">
+            <p><span class="top"><img class="drag_img" src="images/dance.jpeg">Zebra</span></p>
+        </div>
 
-  function closeDragElement() {
-    // stop moving when mouse button is released:
-    document.onmouseup = null;
-    document.onmousemove = null;
-  }
-}</script>
-  </head>
-  
-  <body>
-    <div id="max"><p>The Bait Fridge is a multi-disciplinary collective from South Australia whose members include Felix Rossbach, Zeno Kordov, Dave Court, Declan Casley-Smith, Greta Wyatt, Adrian Schmidt Mumm, Annabel Scheid, Henry Jock Walker, Liam Sommerville, Tom Hannagan, Arlon Hall, Hari Koutlakis, Mat Morison, Emmaline Zanelli, Kaspar Schmidt Mumm and Daria Koljanin. They collaborate to create works and performances which combine the practices of music, art, dance, costume and theatre. It began in 2014 at Blenheim Music and Camping Festival in Clare Valley as a spontaneous performance of expressive art and experimental music. The Bait Fridge has consistently performed at Blenheim Festival every year since growing from a 5-piece outfit in its inception to over 15 participants in 2018, finding its way into elaborate costume construction, audience participatory art making and The Bait Fridge Band. Recent works have involved improvised narrative performance with accompanying music, sculptural instruments, professional dancers, audience involvement, workshops and elaborate stage construction. The Bait Fridge have performed and activated spaces consistently from their conception including SALA’s Finissage events, Activate Ramsay’s Place (Colonnades Shopping Centre), SMOCK and AGSA Neo Teens workshop.</p></div>
-    <br>
-    <div id="chillin"><h1>‘Collective practice is the mitochondria of the BFcell. All of our individual practices have been challenged and mulched by the collective environment of the Bait Fridge. It has taught all Baities at different times how to let go of sole authority over their own work (independence is an illusion! No person is an island!), and that can be an incredibly liberating experience but also something uncomfortable! The Bait Fridge is a constant exercise in creative compromise and resourcefulness, and everyone in the crew has gone on to draw from the group in different ways in their personal projects, whether it is by reaching out for people to perform in their work or get involved in some way, or even just to have a tight community to use as a springboard when we need support.’ — Emmaline Zanelli</h1></div>
-	  <!-- Draggable DIV -->
-<div id="test">
-  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
-  <div id="testheader">CLICK HERE TO MOVE</div>
-	<img src="images/monkey.jpg" alt="Bait Fridge" width="30%" height="30%">
-</div>
+
+        <div class='draggable' id="gg_img">
+            <p><span class="top"><img class="drag_img" src="images/glove.jpeg">Man of Gloves</span></p>
+        </div>
+
+        <div class='draggable' id="s_img">
+            <p><span class="top"><img class="drag_img" src="images/smile.png">Zoom Life</span></p>
+        </div>
+
+        <div class='draggable' id="f_img">
+            <p><span class="top"><img class="drag_img" src="images/head.png">Floating Head</span></p>
+        </div>
+
+
+        <div class="marquee" data-direction='left'>
+            <span>Felix Rossbach, Zeno Kordov, Dave Court, Declan Casley-Smith, Greta Wyatt, Adrian Schmidt Mumm, Annabel Scheid, Henry Jock Walker, Liam Sommerville, Tom Hannagan, Arlon Hall, Hari Koutlakis, Mat Morison, Emmaline Zanelli, Kaspar Schmidt Mumm, Daria Koljanin *</span>
+        </div>
   </body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="marquee.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/utils/Draggable.min.js"></script>
+<script src="hover.js"></script>
+
 </html>
+
+<!-- just word crap to work width
+
+<div id="max"><p>The Bait Fridge is a multi-disciplinary collective from South Australia whose members include Felix Rossbach, Zeno Kordov, Dave Court, Declan Casley-Smith, Greta Wyatt, Adrian Schmidt Mumm, Annabel Scheid, Henry Jock Walker, Liam Sommerville, Tom Hannagan, Arlon Hall, Hari Koutlakis, Mat Morison, Emmaline Zanelli, Kaspar Schmidt Mumm and Daria Koljanin. They collaborate to create works and performances which combine the practices of music, art, dance, costume and theatre. It began in 2014 at Blenheim Music and Camping Festival in Clare Valley as a spontaneous performance of expressive art and experimental music. The Bait Fridge has consistently performed at Blenheim Festival every year since growing from a 5-piece outfit in its inception to over 15 participants in 2018, finding its way into elaborate costume construction, audience participatory art making and The Bait Fridge Band. Recent works have involved improvised narrative performance with accompanying music, sculptural instruments, professional dancers, audience involvement, workshops and elaborate stage construction. The Bait Fridge have performed and activated spaces consistently from their conception including SALA’s Finissage events, Activate Ramsay’s Place (Colonnades Shopping Centre), SMOCK and AGSA Neo Teens workshop.</p></div>
+<br>
+<div id="chillin"><h1>‘Collective practice is the mitochondria of the BFcell. All of our individual practices have been challenged and mulched by the collective environment of the Bait Fridge. It has taught all Baities at different times how to let go of sole authority over their own work (independence is an illusion! No person is an island!), and that can be an incredibly liberating experience but also something uncomfortable! The Bait Fridge is a constant exercise in creative compromise and resourcefulness, and everyone in the crew has gone on to draw from the group in different ways in their personal projects, whether it is by reaching out for people to perform in their work or get involved in some way, or even just to have a tight community to use as a springboard when we need support.’ — Emmaline Zanelli</h1></div>
+
+-->
