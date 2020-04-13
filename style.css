@@ -31,6 +31,7 @@ body {
 	margin: 0;
 	padding: 0;
 	line-height: 1;
+    width: 100%;
 }
 ol, ul {
 	list-style: none;
@@ -92,10 +93,11 @@ p {
 /* marquee */
 
 .marquee {
+    position: fixed;
+    bottom: 0;
 	width: 100%;
 	overflow: hidden;
-	padding:50px;
-	height:120px;
+	padding:20px;
 }
 
 .marquee span {
@@ -104,16 +106,8 @@ p {
 	overflow:visible;
 	white-space:nowrap;
     font-family: 'Messapia_Bold';
+    color: #CD5C5C;
     font-size: 40px;
     letter-spacing:;
     word-spacing: 8px;
 }
-
-/*
-
-font-family: 'Office';
-	font-size: 12px;
-    letter-spacing: 0.7px;
-	line-height: 1.4;
-    word-spacing: 0.5px;
-*/
