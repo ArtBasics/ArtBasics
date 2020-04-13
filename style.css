@@ -59,53 +59,61 @@ body {
 	background-size: 100% 100%;
 }
 
+/* FONT MANAGEMENT */
+
+@font-face {
+    font-family: 'Messapia_Reg';
+	src:    url('fonts/messapia/Messapia-Regular.woff') format('woff'),
+            url('fonts/messapia/Messapia-Regular.woff2') format('woff2'),
+            url('fonts/messapia/Messapia-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Messapia_Bold';
+	src:    url('fonts/messapia/Messapia-Bold.woff') format('woff'),
+            url('fonts/messapia/Messapia-Bold.woff2') format('woff2'),
+            url('fonts/messapia/Messapia-Bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* FONTS sizes and such */
+
 h1 {
-	font-family: Copperplate;
-	font-size: 10vw;
-	text-color: #FFF000;
-	font-style: normal;
-	font-variant: normal;
-	line-height: 100px;
-	text-align: justify;
-	border-left: 10px;
-	border-right: 10px;
+
 }
 
 p {
-  position:fixed;
-  top:0;
-  right:0;
-  z-index:1;
-  width:50%;
-  border:10px black solid;
-  padding:20px;
-  background-color: #FFFFFF;
-  z-index: 1;
-}
-#test {
-  position: absolute;
-  z-index: 9;
-  background-color: #f1f1f1;
-  border: 1px solid #d1d2d3;
-  text-align: center;
+
 }
 
-#testheader {
-  padding: 10px;
-  cursor: move;
-  z-index: 10;
-  background-color: #0000FF;
-  color: #fff;
-  font-style: italic;
-}
-/* ~islands~ */
+/* marquee */
 
-#max {
- height: 100%;
-width: 100%;	
+.marquee {
+	width: 100%;
+	overflow: hidden;
+	padding:50px;
+	height:120px;
 }
 
-#chillin {
-	height: 50%;
-	width: 50%;
+.marquee span {
+	position:relative;
+	padding: 0 40px 0 0;
+	overflow:visible;
+	white-space:nowrap;
+    font-family: 'Messapia_Bold';
+    font-size: 40px;
+    letter-spacing:;
+    word-spacing: 8px;
 }
+
+/*
+
+font-family: 'Office';
+	font-size: 12px;
+    letter-spacing: 0.7px;
+	line-height: 1.4;
+    word-spacing: 0.5px;
+*/
