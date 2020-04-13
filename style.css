@@ -60,7 +60,7 @@ body {
 	background-size: 100% 100%;
 }
 
-/* FONT MANAGEMENT */
+/* IMPORT FONT MANAGEMENT */
 
 @font-face {
     font-family: 'Messapia_Reg';
@@ -110,4 +110,63 @@ p {
     font-size: 40px;
     letter-spacing:;
     word-spacing: 8px;
+}
+
+/*this is the  class that hovers on top of everything*/
+.draggable {
+    min-width: 50px;
+    width: 330px;
+    min-height: 50px;
+    height: 300px;
+    position: fixed;
+}
+
+#g_img {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+
+#d_img {
+    position: absolute;
+    top: 50px;
+    right: 100px;
+    z-index: 10;
+}
+
+#gg_img {
+    position: absolute;
+    bottom: 50px;
+    left: 10px;
+}
+
+#s_img {
+    position: absolute;
+    top: 0px;
+    right: 10px;
+}
+
+#f_img {
+    position: absolute;
+    top: 150px;
+    left: 40px;
+}
+
+.top{
+    font-family: sans-serif;
+    font-size:2vw;
+    color:red;
+    font-weight:300;
+    line-height:100%;
+}
+
+.drag_img{
+    height: 100%;
+    width: 100%;
+}
+
+h1{
+  font-family:sans-serif;
+  font-weight:500;
+
 }
