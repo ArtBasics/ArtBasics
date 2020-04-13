@@ -121,6 +121,8 @@ p {
     position: fixed;
 }
 
+/* seperate position handlers for each div*/
+
 #g_img {
     position: absolute;
     top: 50px;
@@ -169,4 +171,28 @@ h1{
   font-family:sans-serif;
   font-weight:500;
 
+}
+
+/*this is the skewed box*/
+
+#skew {
+    position: absolute;
+    margin: auto;
+    padding:10px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 20%;
+    height: 30%;
+    background-color:#FF4500;
+    color:white;
+    overflow:scroll;
+    z-index: 999;
+
+    -moz-transform: rotate(43deg) translate(-6px, 0px) skew(31deg, -13deg);
+  -webkit-transform: rotate(43deg) translate(-6px, 0px) skew(31deg, -13deg);
+  -o-transform: rotate(43deg) translate(-6px, 0px) skew(31deg, -13deg);
+  -ms-transform: rotate(43deg) translate(-6px, 0px) skew(31deg, -13deg);
+  transform: rotate(43deg) translate(-6px, 0px) skew(31deg, -13deg);
 }
