@@ -5,20 +5,34 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>The Bait Fridge - Art Basics</title>
 		<link rel="stylesheet" type="text/css" media="screen" href="style.css">
+        <link rel="stylesheet" type="text/css" media="screen" href="fakescroll.css">
     </head>
 
     <body>
 
-        <div id="skew">
-          <h1>Hello. Welcome. We are The Bait Fridge
-A collective of South Australian artists from various disciplines. We work together to create works and performances which combine our practices under one banner. We make art, music, dance, theatre, photography, and more.
-</br></br>
-It began in the Clare Valley in 2015 at Blenheim Music & Camping Festival. A simple 5 person spontaneous explosion of art and music: A few people throwing paint around and improvising on their instruments. Now there are more than 20 of us, all refined in our own practices and free to explore and collaborate as a collective. We create handmade costumes; interactive art installations; improvised and written musical performances; audience participatory workshops; photography; and all of these combined.
-</br></br>
-While it all started at Blenheim Festival, we’ve since extended our practice to a range of spaces throughout South Australia. This includes, but is not limited to, running workshops at the Art Gallery of SA; curating SALA’s Finissage Events; performing at the Fringe Club and Field Good Festival; exhibiting at SMOCK gallery; and now, a residency at The Mill.
-</br></br>
-We hope to use the time of our residency to develop new works and methods of collaboration, while also looking back at what we’ve done in the past. And while the timing of COVID-19 ​has disrupted our initial plans,​ The Bait Fridge are an adaptive group and recognise it as an opportunity to work in an unprecedented way. Zoom zoom.</h1>
-          </div>
+        <input type="checkbox" class="read-more-state" id="post-1" />
+        <label for="post-1" class="read-more-trigger"></label>
+        <p class="read-more-wrap">
+            <span class="read-more-target">
+            Just a test my friends.
+        </br></br>
+        The Bait Fridge is a multi-disciplinary collective from South Australia. They work together to create works and performances which combine their practices under one banner. They make art, music, dance, theatre, photography, and more.
+        </span>
+        </p>
+
+        <div class='draggable' id="skew">
+
+        <h1>
+            Hello. Welcome. We are The Bait Fridge
+            A collective of South Australian artists from various disciplines. We work together to create works and performances which combine our practices under one banner. We make art, music, dance, theatre, photography, and more.
+        </br></br>
+            It began in the Clare Valley in 2015 at Blenheim Music & Camping Festival. A simple 5 person spontaneous explosion of art and music: A few people throwing paint around and improvising on their instruments. Now there are more than 20 of us, all refined in our own practices and free to explore and collaborate as a collective. We create handmade costumes; interactive art installations; improvised and written musical performances; audience participatory workshops; photography; and all of these combined.
+        </br></br>
+            While it all started at Blenheim Festival, we’ve since extended our practice to a range of spaces throughout South Australia. This includes, but is not limited to, running workshops at the Art Gallery of SA; curating SALA’s Finissage Events; performing at the Fringe Club and Field Good Festival; exhibiting at SMOCK gallery; and now, a residency at The Mill.
+        </br></br>
+            We hope to use the time of our residency to develop new works and methods of collaboration, while also looking back at what we’ve done in the past. And while the timing of COVID-19 ​has disrupted our initial plans,​ The Bait Fridge are an adaptive group and recognise it as an opportunity to work in an unprecedented way. Zoom zoom.
+        </h1>
+</div>
 
 
         <div class='draggable' id="g_img">
@@ -43,6 +57,12 @@ We hope to use the time of our residency to develop new works and methods of col
         </div>
 
 
+
+        <div class='draggable' id="z_img">
+            <p><span class="top"><img class="drag_img" src="images/zoomin.png">Group zoom</span></p>
+        </div>
+
+
         <div class="marquee" data-direction='left'>
             <span>Felix Rossbach, Zeno Kordov, Dave Court, Declan Casley-Smith, Greta Wyatt, Adrian Schmidt Mumm, Annabel Scheid, Henry Jock Walker, Liam Sommerville, Tom Hannagan, Arlon Hall, Hari Koutlakis, Mat Morison, Emmaline Zanelli, Kaspar Schmidt Mumm, Daria Koljanin *</span>
         </div>
@@ -55,6 +75,14 @@ We hope to use the time of our residency to develop new works and methods of col
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/utils/Draggable.min.js"></script>
 <script src="hover.js"></script>
+
+<script src="fakescroll.js"></script>
+<script>
+    document.querySelector('.foo--outside').fakeScroll();
+
+    for( let elm of document.querySelectorAll('.fakeScroll__content') )
+        elm.setAttribute('contenteditable', true)
+</script>
 
 </html>
 

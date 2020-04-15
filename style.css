@@ -52,7 +52,7 @@ table {
 /* BACKGROUND */
 body {
     width: 100%;
-    height: 100%;
+    height: 2400px;
 	background-color: #F99066;
 	background-image: url("images/pixellogo.svg");
 	background-repeat: no-repeat;
@@ -144,7 +144,7 @@ p {
 
 #s_img {
     position: absolute;
-    top: 0px;
+    top: 489px;
     right: 10px;
 }
 
@@ -152,6 +152,12 @@ p {
     position: absolute;
     top: 150px;
     left: 40px;
+}
+
+#z_img {
+    position: absolute;
+    top: 683px;
+    left: 283px;
 }
 
 .top{
@@ -196,3 +202,73 @@ h1{
   -ms-transform: rotate(43deg) translate(-6px, 0px) skew(31deg, -13deg);
   transform: rotate(43deg) translate(-6px, 0px) skew(31deg, -13deg);
 }
+
+/* ~ show more trickery ~ */
+
+.read-more-state {
+  display: none;
+
+}
+
+.read-more-target {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: .09s ease;
+}
+
+.read-more-state:checked ~ .read-more-wrap .read-more-target {
+  opacity: 1;
+  font-size: inherit;
+  max-height: 999em;
+}
+
+.read-more-state ~ .read-more-trigger:before {
+  content: 'Art Basics';
+}
+
+.read-more-state:checked ~ .read-more-trigger:before {
+  content: 'Click to close.';
+}
+
+.read-more-trigger {
+  cursor: pointer;
+  display: inline-block;
+  /*padding: 0 .5em;*/
+  /*color: #666;*/
+	color: #c03000;
+	font: 14px Tahoma, Verdana, Arial, san-serif;
+  font-size: /*.9em*/ 14px;
+  line-height: 2;
+  /*border: 1px solid #ddd;*/
+  /*border-radius: .25em;*/
+}
+
+.read-more-trigger:hover {
+	color: #FFFFFF;
+	background-color: #0050c0;
+}
+
+
+/* |||here is some fake scroll stuff||| */
+
+/*
+.foo{ position:absolute; top:0; right:0; bottom:0; left:0; margin:auto; min-height:70%; height:1px; width:500px; overflow:auto; background:white; }
+.foo.fakeScroll__scope{ background:none; }
+.foo .fakeScroll__content{ padding-top:1em; padding-bottom:1em; }
+.foo .fakeScroll__wrap{ background:#FFF; border-radius:4px; -moz-box-sizing:border-box; box-sizing:border-box; }
+
+/* upper and bottom fades */
+/*
+.fakeScroll__wrap::before{ content:''; position:absolute; z-index:1; top:0; left:0; right:0; height:5%;
+    background: -webkit-linear-gradient(#FFF 0%, rgba(255,255,255,0) 100%);
+    background: -o-linear-gradient(#FFF 0%, rgba(255,255,255,0) 100%);
+    background: linear-gradient(#FFF 0%, rgba(255,255,255,0) 100%);
+}
+
+.fakeScroll__wrap::after{ content:''; position:absolute; z-index:1; bottom:0; left:0; right:0; height:5%;
+    background: -webkit-linear-gradient(rgba(255,255,255,0) 0%, #FFF 100%);
+    background: -o-linear-gradient(rgba(255,255,255,0) 0%, #FFF 100%);
+    background: linear-gradient(rgba(255,255,255,0) 0%, #FFF 100%);
+}
+*/
