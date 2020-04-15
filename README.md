@@ -6,7 +6,8 @@ A digital playground for The Bait Fridge's Art Basics Exhibition which is also a
 The Bait Fridge is a multi-disciplinary collective from South Australia.
 They work together to create works and performances which combine their practices under one banner. They make art, music, dance, theatre, photography, and more.
 
-The Mill’s Visual Arts Curator Adele Sliuzas will record a podcast with members of the Bait Fridge. 
+The Mill’s Visual Arts Curator Adele Sliuzas will record a podcast with members of the Bait Fridge.
+
 https://soundcloud.com/user-303370204Public
 
 ### Members:
