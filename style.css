@@ -125,7 +125,7 @@ p {
 
 #g_img {
     position: absolute;
-    top: 50px;
+    top: 160px;
     left: 100px;
 }
 
@@ -150,14 +150,38 @@ p {
 
 #f_img {
     position: absolute;
-    top: 150px;
+    top: 1150px;
     left: 40px;
 }
 
 #z_img {
     position: absolute;
-    top: 683px;
+    top: 600px;
     left: 283px;
+}
+
+#sh_img {
+    position: absolute;
+    top: 942px;
+    left: 500px;
+}
+
+#shh_img {
+    position: absolute;
+    top: 1544px;
+    right: 283px;
+}
+
+#fg_img {
+    position: absolute;
+    top: 1784px;
+    left: 66px;
+}
+
+#s19_img {
+    position: absolute;
+    top: 1284px;
+    left: 233px;
 }
 
 .top{
@@ -265,16 +289,21 @@ h1{
 
 /* ~ show more trickery ~ */
 
+#about {
+    position: relative;
+    padding-top:12px;
+    padding-left:34px;
+}
+
 .read-more-state {
   display: none;
-
 }
 
 .read-more-target {
   opacity: 0;
   max-height: 0;
   font-size: 0;
-  transition: .09s ease;
+  transition: 0.25s ease;
 }
 
 .read-more-state:checked ~ .read-more-wrap .read-more-target {
@@ -285,6 +314,10 @@ h1{
 
 .read-more-state ~ .read-more-trigger:before {
   content: 'Art Basics';
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 700;
+  color: #0000FF;
 }
 
 .read-more-state:checked ~ .read-more-trigger:before {
@@ -292,6 +325,7 @@ h1{
 }
 
 .read-more-trigger {
+
   cursor: pointer;
   display: inline-block;
   /*padding: 0 .5em;*/
@@ -306,9 +340,15 @@ h1{
 
 .read-more-trigger:hover {
 	color: #FFFFFF;
-	background-color: #0050c0;
+	background-color: #0000FF;
 }
 
+.read-more-wrap {
+      max-width: 450px;
+      padding: 20px 0px 20px 0px;
+      color: #0000FF;
+      z-index: 800;
+}
 
 /* |||here is some fake scroll stuff||| */
 
