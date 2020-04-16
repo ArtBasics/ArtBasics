@@ -203,6 +203,66 @@ h1{
   transform: rotate(43deg) translate(-6px, 0px) skew(31deg, -13deg);
 }
 
+#skew2 {
+    position: absolute;
+    margin: auto;
+    padding:10px;
+    top: 750px;
+    left: 200px;
+    width: 20%;
+    height: 30%;
+    background-color:#4B0082;
+    color:white;
+    overflow:scroll;
+    z-index: 999;
+
+  -moz-transform: rotate(27deg) translate(-6px, 6px) skew(-17deg, 172deg);
+  -webkit-transform: rotate(27deg) translate(-6px, 6px) skew(-17deg, 172deg);
+  -o-transform: rotate(27deg) translate(-6px, 6px) skew(-17deg, 172deg);
+  -ms-transform: rotate(27deg) translate(-6px, 6px) skew(-17deg, 172deg);
+  transform: rotate(27deg) translate(-6px, 6px) skew(-17deg, 172deg);
+}
+
+#skew3 {
+    position: absolute;
+    margin: auto;
+    padding:10px;
+    top: 1300px;
+    right: 200px;
+    width: 20%;
+    height: 30%;
+    background-color:#00FF7F;
+    color:black;
+    overflow:scroll;
+    z-index: 999;
+
+    -moz-transform: rotate(-12deg) translate(-6px, 0px) skew(189deg, -13deg);
+  -webkit-transform: rotate(-12deg) translate(-6px, 0px) skew(189deg, -13deg);
+  -o-transform: rotate(-12deg) translate(-6px, 0px) skew(189deg, -13deg);
+  -ms-transform: rotate(-12deg) translate(-6px, 0px) skew(189deg, -13deg);
+  transform: rotate(-12deg) translate(-6px, 0px) skew(189deg, -13deg);
+}
+
+#skew4 {
+    position: absolute;
+    margin: auto;
+    padding:10px;
+    top: 2000px;
+    left: 400px;
+    width: 20%;
+    height: 30%;
+    background-color:#FFEFD5;
+    color:black;
+    overflow:scroll;
+    z-index: 999;
+
+    -moz-transform: rotate(-20deg) translate(-6px, 0px) skew(31deg, -13deg);
+  -webkit-transform: rotate(-20deg) translate(-6px, 0px) skew(31deg, -13deg);
+  -o-transform: rotate(-20deg) translate(-6px, 0px) skew(31deg, -13deg);
+  -ms-transform: rotate(-20deg) translate(-6px, 0px) skew(31deg, -13deg);
+  transform: rotate(-20deg) translate(-6px, 0px) skew(31deg, -13deg);
+}
+
 /* ~ show more trickery ~ */
 
 .read-more-state {
