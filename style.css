@@ -313,11 +313,11 @@ h1{
 }
 
 .read-more-state ~ .read-more-trigger:before {
-  content: 'Art Basics';
+  content: 'Art Basics+';
   font-size: 30px;
   font-family: "Times New Roman", Times, serif;
-  font-weight: 700;
-  color: #0000FF;
+  font-weight: 300;
+  color: #FFFFFF;
 }
 
 .read-more-state:checked ~ .read-more-trigger:before {
