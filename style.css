@@ -184,6 +184,12 @@ p {
     left: 233px;
 }
 
+#ad_01 {
+    position: absolute;
+    top: 80px;
+    right: 120px;
+}
+
 .top{
     font-family: sans-serif;
     font-size:2vw;
