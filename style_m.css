@@ -192,18 +192,21 @@ p {
     background-color:#4B0082;
     color:white;
     overflow:scroll;
+    border-radius: 30%;
 }
 
 #box3 {
     background-color:#00FF7F;
     color:black;
     overflow:scroll;
+    border-radius: 30%;
 }
 
 #box4 {
     background-color:#FFEFD5;
     color:black;
     overflow:scroll;
+    border-radius: 30%;
 }
 
 /* IMAGES */
