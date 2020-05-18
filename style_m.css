@@ -171,8 +171,8 @@ h2{
     margin: auto;
     left: 0;
     right: 0;
-    width: 85%;
-    padding:10px;
+    max-width: 85%;
+    padding:50px;
     margin-bottom: 40px;
 }
 
@@ -181,6 +181,7 @@ h2{
     background-color:#FF4500;
     color:white;
     overflow:scroll;
+    border-radius: 30%;
 }
 
 #box2 {
