@@ -15,20 +15,46 @@
 
     <body>
 
-        <div id="about">
-        <input type="checkbox" class="read-more-state" id="post-1" />
-        <label for="post-1" class="read-more-trigger"></label>
-        <p class="read-more-wrap">
-            <span class="read-more-target">
-                <!-- HEY DAVE IN HERE IS THE AREA FOR ABOUT -->
-            Art Basics is The Bait Fridge's digital artist residency at <a href="https://www.themilladelaide.com/events/2020/1/23/visual-artists-in-residence-the-bait-fridge">The Mill.</a> Part of The Mill's 2020 programming. This online publication will showcase some of the process, experimentation and outcomes of The Bait Fridge's residency. 
-            </br></br>
-            The Bait Fridge is a multi-disciplinary collective from South Australia. They work together to create works and performances which combine their practices under one banner. They make art, music, dance, theatre, photography, and more.
-	    </br></br>
-Art Basics is presented by <a href="https://www.themilladelaide.com/">The Mill Adelaide</a> and <a href="https://explore.cityofadelaide.com.au/whats-on/visual-artists-in-residence-art-basics-the-bait-fridge/">City of Adelaide.</a>
-</br>Website by <a href="http://smallroom.com.au/">small room.</a>
-            </span>
-        </p>
+        <div id="about_basic" class="aboutt">
+            <button class="accordion">Art Basics+</button>
+            <div class="panel">
+                Art Basics is The Bait Fridge's digital artist residency at <a href="https://www.themilladelaide.com/events/2020/1/23/visual-artists-in-residence-the-bait-fridge">The Mill.</a> Part of The Mill's 2020 programming. This online publication will showcase some of the process, experimentation and outcomes of The Bait Fridge's residency.
+                </br></br>
+                The Bait Fridge is a multi-disciplinary collective from South Australia. They work together to create works and performances which combine their practices under one banner. They make art, music, dance, theatre, photography, and more.
+                </br></br>
+                Art Basics is presented by <a href="https://www.themilladelaide.com/">The Mill Adelaide</a> and <a href="https://explore.cityofadelaide.com.au/whats-on/visual-artists-in-residence-art-basics-the-bait-fridge/">City of Adelaide.</a>
+            </br></br>Website by <a href="http://smallroom.com.au/">small room.</a>
+        </div>
+        </div>
+
+        <div id="about_mill" class="aboutt">
+            <button id="posRIGHT" class="accordion">The Mill+</button>
+            <div class="panel">
+
+            <p>The Mill is a multi-arts, not for profit organisation where artists of all disciplines come to elevate and amplify their practice.
+        </br></br>
+        Our organisation is rich with stories. We witness and celebrate every part of the artistic process, facilitating insight and multiple levels of criticality. It’s a place to feel connected, inspired and motivated to create great work.
+        </br></br>
+        The Mill is recognised as a hub of creative innovation and cross-artform practice, making great contributions to the national contemporary arts sector, and positively impacting South Australia’s cultural landscape.
+        </br></br>
+        Our rich, year-round program provides artists with the necessary physical space to work on their practice, alongside diverse public events, performances and exhibitions, and professional development opportunities.
+        </br></br>
+        The Mill’s masterclasses, workshops and residencies place local artists, both emerging and established, with leading practitioners from across the country, and around the world.
+        </br></br>
+        Since 2013, The Mill has provided artists with short and long-term support, always advocating for artistic careers and responding to the aspirations of our community. </p></br></br>
+
+        <h1> About the program </h1></br>
+
+        <p>The Bait Fridge are our incoming Artists in Residence in The Mill's Exhibition Space in 2020. Due to the current COVID-19 crisis, this residency is developing new ways of creating digital content so that the residency can be available online. The Bait Fridge collective will be in residence from March 17 to May 29. With a focus on artistic process, this two-month residency allows audiences direct access to creative research and making. This residency is presented in partnership with City of Adelaide.</p></br>
+
+        <p>The Bait Fridge is a multi-disciplinary collective from South Australia whose members collaborate under a unified banner to create works and performances which combine the practices of music, art, dance, costume and theatre. Through this project The Bait Fridge will be developing ideas, costumes, performances, sculpture and music. Working with materials that other people might consider to be trash allows the collective to see beyond traditional boundaries of artists practice. Each of the members of the collective brings their own unique energy, while working collaboratively, with each other as well as audiences, allowing The Bait Fridge to explore new ways of creating and bringing new understandings to concepts of ‘art’ and the role of the ‘artist’.</p></br>
+
+        <p>The Mill invites you to witness The Bait Fridge’s creative practice digitally and gain insight into their collaborative process as the residency unfolds across a 10 week period.</p></br>
+
+        <p>Although we are currently practicing social distancing, in light of COVID-19, we will be presenting digital content for you to enjoy from the comfort of your homes. Please keep an eye on our social media for updates.</p></br>
+
+        <p> Presented in partnership with the City of Adelaide. </p>
+        </div>
         </div>
 
         <div class='draggable' id="skew">
@@ -103,14 +129,15 @@ Art Basics is presented by <a href="https://www.themilladelaide.com/">The Mill A
         <div class='draggable' id="s19_img">
             <p><span class="top"><img class="drag_img" src="images/sala19.jpg">SALA 2019</span></p>
         </div>
-	
+
 	<div class='draggable' id="ad_01">
-            <p><span class="top"><a href="https://thebaitfridge.com/Home"><img class="drag_img" src="images/visit.svg"></a></span></p>
+            <p><span class="top"><img class="drag_img" src="images/visit.svg"></span></p>
         </div>
 
         <div class="marquee" data-direction='left'>
             <span>Felix Rossbach, Zeno Kordov, Dave Court, Declan Casley-Smith, Greta Wyatt, Adrian Schmidt Mumm, Annabel Scheid, Henry Jock Walker, Liam Sommerville, Tom Hannagan, Arlon Hall, Hari Koutlakis, Mat Morison, Emmaline Zanelli, Kaspar Schmidt Mumm, Daria Koljanin,</span>
         </div>
+
   </body>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -120,13 +147,25 @@ Art Basics is presented by <a href="https://www.themilladelaide.com/">The Mill A
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/utils/Draggable.min.js"></script>
 <script src="hover.js"></script>
-
-<script src="fakescroll.js"></script>
 <script>
-    document.querySelector('.foo--outside').fakeScroll();
+var acc = document.getElementsByClassName("accordion");
+var i;
 
-    for( let elm of document.querySelectorAll('.fakeScroll__content') )
-        elm.setAttribute('contenteditable', true)
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    /* Toggle between adding and removing the "active" class,
+    to highlight the button that controls the panel */
+    this.classList.toggle("active");
+
+    /* Toggle between hiding and showing the active panel */
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
 </script>
 
 </html>
