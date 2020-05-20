@@ -49,20 +49,16 @@ table {
 	border-spacing: 0;
 }
 
-/* BACKGROUND */
-
+/*--- BACKGROUND */
 body {
     width: 100%;
-    height: 2400px;
 	background-color: #F99066;
 	/*background-image: url("images/pixellogo.svg");*/
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: 100% 100%;
 }
-
-/* IMPORT FONT MANAGEMENT */
-
+/*--- IMPORT FONT MANAGEMENT */
 @font-face {
     font-family: 'Messapia_Reg';
 	src:    url('fonts/messapia/Messapia-Regular.woff') format('woff'),
@@ -71,7 +67,6 @@ body {
     font-weight: normal;
     font-style: normal;
 }
-
 @font-face {
     font-family: 'Messapia_Bold';
 	src:    url('fonts/messapia/Messapia-Bold.woff') format('woff'),
@@ -80,142 +75,114 @@ body {
     font-weight: normal;
     font-style: normal;
 }
-
-/* FONTS */
-
+/*--- FONTS */
 h1 {
-    font-size: 50px;
+    font-size: 2.5em;
     color: yellow;
     text-align: center;
-
 }
-
 h2{
   font-family:sans-serif;
   font-weight:500;
 }
-
 p {
     font-size: 20px;
 }
-
-/* ABOUT */
-
-#about {
+/*--- ABOUT */
+#welcome{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+#about_basic {
     position: relative;
-    margin-bottom: 50px;
-    padding-top: 12px;
-    padding-left: 34px;
-    padding-right: 34px;
-    font-family: "Times New Roman", Times, serif;
-    font-weight: 275;
-    font-kerning: normal;
-    line-height: 1.15;
-    color: #FFFFFF;
+    text-align: justify;
 }
-
-/*
-
-.read-more-state {
-  display: none;
+#about_mill {
+    position: relative;
+    text-align: justify;
 }
-
-.read-more-target {
-  opacity: 0;
-  max-height: 0;
-  font-size: 0;
-  transition: 0.25s ease;
+.aboutt {
+    max-width: auto;
 }
-
-.read-more-state:checked ~ .read-more-wrap .read-more-target {
-  opacity: 1;
-  font-size: inherit;
-  max-height: 999em;
+.accordion {
+ background-color: transparent;
+ cursor: pointer;
+ padding: 1.5vh 0vw 3vh 0vw;
+ width: 100%;
+ text-align: center;
+ border: none;
+ outline: none;
+ transition: 0.4s;
+ font-size: 2.5em;
+ font-family: "Times New Roman", Times, serif;
+ font-weight: 275;
+ font-kerning: normal;
+ color: #0000FF;
 }
+.active, .accordion:hover {
 
-.read-more-state ~ .read-more-trigger:before {
-  content: 'Art Basics+';
-  font-size: 30px;
-  font-family: "Times New Roman", Times, serif;
-  font-weight: 275;
-  font-kerning: normal;
-  color: #FFFFFF;
 }
-
-.read-more-state:checked ~ .read-more-trigger:before {
-  content: 'Click to close.';
+.panel {
+ padding: 1vh 10vw 5vh 10vw;
+ display: none;
+ overflow: visible;
+ color: #0000FF;
 }
-
-.read-more-trigger {
-
-  cursor: pointer;
-  display: inline-block;
-  color: #c03000;
-  font: 14px Tahoma, Verdana, Arial, san-serif;
-  font-size: 14px;
-  line-height: 2;
-}
-
-.read-more-trigger:hover {
-	color: #FFFFFF;
-	background-color: #0000FF;
-}
-
-.read-more-wrap {
-      max-width: 450px;
-      padding: 20px 0px 20px 0px;
-      color: #0000FF;
-      z-index: 800;
-}
-*/
-
-/* BOXES */
-
+/*--- CONTENT BOXES */
 .mainBOX {
     margin: auto;
     left: 0;
     right: 0;
     max-width: 85%;
-    padding:50px;
+    padding: 2.4vh;
     margin-bottom: 40px;
 }
-
-
 #box1 {
     background-color:#FF4500;
     color:white;
     overflow:scroll;
-    border-radius: 30%;
+    border-top: 20px solid lightblue;
+    border-right: 20px solid green;
+    border-bottom: 20px solid yellow;
+    border-left: 20px solid violet;
 }
-
 #box2 {
     background-color:#4B0082;
     color:white;
     overflow:scroll;
-    border-radius: 30%;
+    border-top: 20px solid red;
+    border-right: 20px solid brown;
+    border-bottom: 20px solid grey;
+    border-left: 20px solid orange;
 }
-
 #box3 {
     background-color:#00FF7F;
     color:black;
     overflow:scroll;
-    border-radius: 30%;
+    border-top: 20px solid gold;
+    border-right: 20px solid ivory;
+    border-bottom: 20px solid pink;
+    border-left: 20px solid olive;
 }
-
 #box4 {
     background-color:#FFEFD5;
     color:black;
     overflow:scroll;
-    border-radius: 30%;
+    border-top: 20px solid lightblue;
+    border-right: 20px solid indigo;
+    border-bottom: 20px solid saddlebrown;
+    border-left: 20px solid tomato;
 }
-
-/* IMAGES */
-
+/*--- HANDLING IMAGES */
 img {
     max-width: 100%;
     height: auto;
 }
-
 .fontWRAP{
     font-family: sans-serif;
     font-size:10vw;
@@ -224,9 +191,7 @@ img {
     line-height:100%;
     margin-bottom: 40px;
 }
-
-/* MARQUEE */
-
+/*--- MARQUEE */
 .marquee {
     position: fixed;
     bottom: 0;
@@ -235,7 +200,6 @@ img {
 	padding:20px;
     z-index: 999;
 }
-
 .marquee span {
 	position:relative;
 	padding: 0 40px 0 0;
@@ -247,3 +211,19 @@ img {
     letter-spacing:;
     word-spacing: 8px;
 }
+/*
+.element {
+  width: 100%;
+  height: 100%;
+  animation: pulse 5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: #001F3F;
+  }
+  100% {
+    background-color: #FF4136;
+  }
+}
+*/

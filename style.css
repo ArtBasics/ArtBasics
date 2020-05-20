@@ -49,7 +49,7 @@ table {
 	border-spacing: 0;
 }
 
-/* BACKGROUND */
+/*--- BACKGROUND */
 body {
     width: 100%;
     height: 2400px;
@@ -59,9 +59,7 @@ body {
 	background-attachment: fixed;
 	background-size: 100% 100%;
 }
-
-/* IMPORT FONT MANAGEMENT */
-
+/*--- IMPORT FONT MANAGEMENT */
 @font-face {
     font-family: 'Messapia_Reg';
 	src:    url('fonts/messapia/Messapia-Regular.woff') format('woff'),
@@ -70,7 +68,6 @@ body {
     font-weight: normal;
     font-style: normal;
 }
-
 @font-face {
     font-family: 'Messapia_Bold';
 	src:    url('fonts/messapia/Messapia-Bold.woff') format('woff'),
@@ -79,44 +76,34 @@ body {
     font-weight: normal;
     font-style: normal;
 }
-
-/* FONTS sizes and such */
-
+/*--- FONTS SIZES & STYLE */
 h1{
   font-family:sans-serif;
   font-weight:500;
 
 }
-
 p {
 
 }
-
-/* ~ show more trickery ~ */
-
+/*--- ACCORDIAN DROP DOWN */
 #about_basic {
     position: absolute;
     top: 30px;
     left: 30px;
     text-align: left;
 }
-
 #about_mill {
     position: absolute;
     top: 30px;
     right: 30px;
     text-align: left;
 }
-
 .aboutt {
     max-width: 400px;
 }
-
 #posRIGHT {
     text-align: right;
 }
-
-/* Style the buttons that are used to open and close the accordion panel */
 .accordion {
  background-color: transparent;
  cursor: pointer;
@@ -132,123 +119,20 @@ p {
  font-kerning: normal;
  color: #0000FF;
 }
-
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .accordion:hover {
- color: blue;
-}
 
-/* Style the accordion panel. Note: hidden by default */
+}
 .panel {
  padding-top: 10px;
+ max-height: 500px;
  display: none;
- overflow: hidden;
+ overflow: auto;
  color: #0000FF;
 }
-
-/* marquee */
-
-.marquee {
-    position: fixed;
-    bottom: 0;
-	width: 100%;
-	overflow: hidden;
-	padding:20px;
-}
-
-.marquee span {
-	position:relative;
-	padding: 0 40px 0 0;
-	overflow:visible;
-	white-space:nowrap;
-    font-family: 'Messapia_Bold';
-    color: #CD5C5C;
-    font-size: 40px;
-    letter-spacing:;
-    word-spacing: 8px;
-}
-
-/*this is the  class that hovers on top of everything*/
+/*--- DRAG ITEMS */
 .draggable {
-    min-width: 50px;
-    width: 330px;
-    min-height: 50px;
-    height: 300px;
     position: fixed;
 }
-
-/* seperate position handlers for each div*/
-
-#g_img {
-    position: absolute;
-    top: 160px;
-    left: 100px;
-}
-
-#d_img {
-    position: absolute;
-    top: 50px;
-    right: 300px;
-    z-index: 10;
-}
-
-#gg_img {
-    position: absolute;
-    bottom: 50px;
-    left: 10px;
-}
-
-#s_img {
-    position: absolute;
-    top: 489px;
-    right: 10px;
-}
-
-#f_img {
-    position: absolute;
-    top: 1150px;
-    left: 40px;
-}
-
-#z_img {
-    position: absolute;
-    top: 600px;
-    left: 283px;
-}
-
-#sh_img {
-    position: absolute;
-    top: 942px;
-    left: 500px;
-}
-
-#shh_img {
-    position: absolute;
-    top: 1544px;
-    right: 283px;
-}
-
-#fg_img {
-    position: absolute;
-    top: 1784px;
-    left: 66px;
-}
-
-#s19_img {
-    position: absolute;
-    top: 1284px;
-    left: 233px;
-}
-
-#ad_01 {
-    position: absolute;
-    top: 250px;
-    right: 120px;
-    z-index: 100;
-	width: 10%;
-	height: 10%;
-}
-
 .top{
     font-family: sans-serif;
     font-size:2vw;
@@ -256,16 +140,17 @@ p {
     font-weight:300;
     line-height:100%;
 }
-
 .drag_img{
     height: 100%;
     width: 100%;
 }
-
-
-
-/*this is the skewed box*/
-
+/*
+min-width: 50px;
+width: 330px;
+min-height: 50px;
+height: 300px;
+*/
+/*--- CONTENT BOXES */
 #skew {
     position: absolute;
     margin: auto;
@@ -287,7 +172,6 @@ p {
   -ms-transform: rotate(43deg) translate(-6px, 0px) skew(31deg, -13deg);
   transform: rotate(43deg) translate(-6px, 0px) skew(31deg, -13deg);
 }
-
 #skew2 {
     position: absolute;
     margin: auto;
@@ -307,7 +191,6 @@ p {
   -ms-transform: rotate(27deg) translate(-6px, 6px) skew(-17deg, 172deg);
   transform: rotate(27deg) translate(-6px, 6px) skew(-17deg, 172deg);
 }
-
 #skew3 {
     position: absolute;
     margin: auto;
@@ -327,7 +210,6 @@ p {
   -ms-transform: rotate(-12deg) translate(-6px, 0px) skew(189deg, -13deg);
   transform: rotate(-12deg) translate(-6px, 0px) skew(189deg, -13deg);
 }
-
 #skew4 {
     position: absolute;
     margin: auto;
@@ -346,4 +228,83 @@ p {
   -o-transform: rotate(-20deg) translate(-6px, 0px) skew(31deg, -13deg);
   -ms-transform: rotate(-20deg) translate(-6px, 0px) skew(31deg, -13deg);
   transform: rotate(-20deg) translate(-6px, 0px) skew(31deg, -13deg);
+}
+/*--- HANDLING IMAGES */
+#g_img {
+    position: absolute;
+    top: 160px;
+    left: 100px;
+}
+#d_img {
+    position: absolute;
+    top: 50px;
+    right: 300px;
+    z-index: 10;
+}
+#gg_img {
+    position: absolute;
+    bottom: 50px;
+    left: 10px;
+}
+#s_img {
+    position: absolute;
+    top: 489px;
+    right: 10px;
+}
+#f_img {
+    position: absolute;
+    top: 1150px;
+    left: 40px;
+}
+#z_img {
+    position: absolute;
+    top: 600px;
+    left: 283px;
+}
+#sh_img {
+    position: absolute;
+    top: 942px;
+    left: 500px;
+}
+#shh_img {
+    position: absolute;
+    top: 1544px;
+    right: 283px;
+}
+#fg_img {
+    position: absolute;
+    top: 1784px;
+    left: 66px;
+}
+#s19_img {
+    position: absolute;
+    top: 1284px;
+    left: 233px;
+}
+#ad_01 {
+    position: absolute;
+    top: 250px;
+    right: 120px;
+    z-index: 100;
+	width: 10%;
+	height: 10%;
+}
+/*--- MARQUEE */
+.marquee {
+    position: fixed;
+    bottom: 0;
+	width: 100%;
+	overflow: hidden;
+	padding:20px;
+}
+.marquee span {
+	position:relative;
+	padding: 0 40px 0 0;
+	overflow:visible;
+	white-space:nowrap;
+    font-family: 'Messapia_Bold';
+    color: #CD5C5C;
+    font-size: 40px;
+    letter-spacing:;
+    word-spacing: 8px;
 }
