@@ -132,6 +132,7 @@ p {
 /*--- DRAG ITEMS */
 .draggable {
     position: fixed;
+    max-width: 300px;
 }
 .top{
     font-family: sans-serif;
