@@ -8,8 +8,6 @@ They work together to create works and performances which combine their practice
 
 The Mill’s Visual Arts Curator Adele Sliuzas will record a podcast with members of the Bait Fridge.
 
-https://soundcloud.com/user-303370204Public
-
 ### Members:
 * *Felix Rossbach*
 * *Zeno Kordov*
