@@ -197,19 +197,19 @@ img {
     bottom: 0;
 	width: 100%;
 	overflow: hidden;
-	padding:20px;
+	padding-bottom: 0.4em;
     z-index: 999;
 }
 .marquee span {
 	position:relative;
-	padding: 0 40px 0 0;
-	overflow:visible;
-	white-space:nowrap;
+	padding: ;
+	overflow: visible;
+	white-space: nowrap;
     font-family: 'Messapia_Bold';
     color: #CD5C5C;
-    font-size: 40px;
+    font-size: 0.8em;
     letter-spacing:;
-    word-spacing: 8px;
+    word-spacing: ;
 }
 /*
 .element {
