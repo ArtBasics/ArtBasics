@@ -182,11 +182,12 @@ height: 300px;
     bottom: 2.2vh;
     left: 0;
     height: 2.5vh;
-    width: 25vw;
+    width: 27vw;
     color: red;
-    background-color: darkorange;
+    background-color: gold;
     border-radius: 2em;
     z-index: 999;
+    font-size: 1.2em;
 }
 /*--- CONTENT BOXES */
 #skew {
@@ -346,6 +347,14 @@ height: 300px;
     z-index: 100;
     height: 15vh;
     width: 15vw;
+}
+#ad_02 {
+    position: fixed;
+    bottom: 10vh;
+    left: 2vw;
+    z-index: 100;
+    height: 20vh;
+    width: 20vw;
 }
 /*--- MARQUEE */
 .marquee {
