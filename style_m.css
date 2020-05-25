@@ -86,9 +86,9 @@ h2{
   font-weight:500;
 }
 p {
-    font-size: 20px;
+    font-size: 1em;
 }
-/*--- ABOUT */
+/*--- SPLASH */
 #heal img{
 	height: 100vh;
 	width: 100vw;
@@ -103,13 +103,22 @@ p {
     width: 100%;
     height: auto;
 }
+/*--- WELCOME */
 #about_basic {
     position: relative;
     text-align: justify;
+		margin-top: 3vh;
+		margin-right: 4vw;
+		margin-bottom: 3vh;
+		margin-left: 4vw;
 }
 #about_mill {
     position: relative;
     text-align: justify;
+		margin-top: 3vh;
+		margin-right: 4vw;
+		margin-bottom: 3vh;
+		margin-left: 4vw;
 }
 .aboutt {
     max-width: auto;
@@ -117,10 +126,10 @@ p {
 .accordion {
  background-color: transparent;
  cursor: pointer;
- padding: 1.5vh 0vw 3vh 0vw;
+ padding: 1.5vh 0vw 1.5vh 0vw;
  width: 100%;
  text-align: center;
- border: none;
+ border: solid 1px;
  outline: none;
  transition: 0.4s;
  font-size: 2.5em;
@@ -133,7 +142,7 @@ p {
 
 }
 .panel {
- padding: 1vh 10vw 5vh 10vw;
+ padding: 3vh 8vw 3vh 8vw;
  display: none;
  overflow: visible;
  color: #0000FF;
