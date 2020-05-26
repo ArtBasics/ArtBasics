@@ -199,6 +199,15 @@ p {
     border-bottom: 20px solid saddlebrown;
     border-left: 20px solid tomato;
 }
+#box5 {
+    background-color: darkred;
+    color: white;
+    overflow:scroll;
+    border-top: 20px solid lime;
+    border-right: 20px solid lightseagreen;
+    border-bottom: 20px solid lightcoral;
+    border-left: 20px solid magenta;
+}
 /*--- HANDLING IMAGES */
 img {
     max-width: 100%;
