@@ -163,6 +163,15 @@ p {
     padding: 2.4vh;
     margin-bottom: 40px;
 }
+#box0 {
+    background-color:#FF4500;
+    color:white;
+    overflow:scroll;
+    border-top: 20px solid lightblue;
+    border-right: 20px solid green;
+    border-bottom: 20px solid yellow;
+    border-left: 20px solid violet;
+}
 #box1 {
     background-color:#FF4500;
     color:white;
