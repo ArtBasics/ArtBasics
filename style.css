@@ -52,7 +52,7 @@ table {
 /*--- BACKGROUND */
 body {
   width: 100%;
-  height: 370vh;
+  height: ;
   /*height: 2400px;*/
 	background-color: #F99066;
 	background-image: url("images/pixellogo.svg");
@@ -189,153 +189,235 @@ height: 300px;
     font-size: 1.3vw;
 }
 /*--- CONTENT BOXES */
-#skew {
-    position: absolute;
-    margin: auto;
-    padding:10px;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    width: 20%;
-    height: 30%;
-    background-color:#FF4500;
-    color:white;
-    overflow:scroll;
-    z-index: 999;
-
-    -moz-transform: rotate(43deg) translate(-6px, 0px) skew(31deg, -13deg);
-  -webkit-transform: rotate(43deg) translate(-6px, 0px) skew(31deg, -13deg);
-  -o-transform: rotate(43deg) translate(-6px, 0px) skew(31deg, -13deg);
-  -ms-transform: rotate(43deg) translate(-6px, 0px) skew(31deg, -13deg);
-  transform: rotate(43deg) translate(-6px, 0px) skew(31deg, -13deg);
+.vidss{
+		position: absolute;
+		margin: auto;
+		top: 110vh;
+		left: 0;
+		right: 0;
+		text-align: center;
 }
-#skew2 {
+#box0 {
     position: absolute;
     margin: auto;
-    padding:10px;
-    top: 750px;
-    left: 200px;
-    width: 20%;
-    height: 30%;
-    background-color:#4B0082;
-    color:white;
-    overflow:scroll;
-    z-index: 999;
+    padding: 2vh 1vw 2vh 1vw;
+		top: 201vh;
+		left: 0;
+		right: 0;
+    width: 30vw;
 
-  -moz-transform: rotate(27deg) translate(-6px, 6px) skew(-17deg, 172deg);
-  -webkit-transform: rotate(27deg) translate(-6px, 6px) skew(-17deg, 172deg);
-  -o-transform: rotate(27deg) translate(-6px, 6px) skew(-17deg, 172deg);
-  -ms-transform: rotate(27deg) translate(-6px, 6px) skew(-17deg, 172deg);
-  transform: rotate(27deg) translate(-6px, 6px) skew(-17deg, 172deg);
-}
-#skew3 {
-    position: absolute;
-    margin: auto;
-    padding:10px;
-    top: 1300px;
-    right: 200px;
-    width: 20%;
-    height: 30%;
-    background-color:#00FF7F;
+
+		background-color: peachpuff;
     color:black;
     overflow:scroll;
-    z-index: 999;
+    border-top: 20px solid plum;
+    border-right: 20px solid mintcream;
+    border-bottom: 20px solid blue;
+    border-left: 20px solid rosybrown;
 
-    -moz-transform: rotate(-12deg) translate(-6px, 0px) skew(189deg, -13deg);
-  -webkit-transform: rotate(-12deg) translate(-6px, 0px) skew(189deg, -13deg);
-  -o-transform: rotate(-12deg) translate(-6px, 0px) skew(189deg, -13deg);
-  -ms-transform: rotate(-12deg) translate(-6px, 0px) skew(189deg, -13deg);
-  transform: rotate(-12deg) translate(-6px, 0px) skew(189deg, -13deg);
+    z-index: 999;
+		-moz-transform: rotate(-10deg) translate(-6px, 6px) skew(-17deg, 172deg);
+		-webkit-transform: rotate(-10deg) translate(-6px, 6px) skew(-17deg, 172deg);
+		-o-transform: rotate(-10deg) translate(-6px, 6px) skew(-17deg, 172deg);
+		-ms-transform: rotate(-10deg) translate(-6px, 6px) skew(-17deg, 172deg);
+		transform: rotate(-10deg) translate(-6px, 6px) skew(-17deg, 172deg);
 }
-#skew4 {
+#box1 {
     position: absolute;
     margin: auto;
-    padding:10px;
-    top: 2000px;
-    left: 400px;
-    width: 20%;
-    height: 30%;
-    background-color:#FFEFD5;
+    padding: 2vh 1vw 2vh 1vw;
+		top: 310vh;
+		left: 0;
+		right: 0;
+    width: 20vw;
+
+
+		background-color:#FF4500;
+    color:white;
+    overflow:scroll;
+    border-top: 20px solid lightblue;
+    border-right: 20px solid green;
+    border-bottom: 20px solid yellow;
+    border-left: 20px solid violet;
+
+    z-index: 999;
+}
+#box2 {
+  position: absolute;
+  margin: auto;
+	padding: 2vh 1vw 2vh 1vw;
+	top: 343vh;
+	left: 0;
+	right: 0;
+	width: 20vw;
+
+	background-color:#4B0082;
+  color:white;
+  overflow:scroll;
+  border-top: 20px solid red;
+  border-right: 20px solid brown;
+  border-bottom: 20px solid grey;
+  border-left: 20px solid orange;
+
+  z-index: 998;
+}
+#box3 {
+  position: absolute;
+  margin: auto;
+  padding: 2vh 1vw 2vh 1vw;
+	top: 387vh;
+	left: 0;
+	right: 0;
+	width: 20vw;
+
+	background-color:#00FF7F;
+  color:black;
+  overflow:scroll;
+  border-top: 20px solid gold;
+  border-right: 20px solid ivory;
+  border-bottom: 20px solid pink;
+  border-left: 20px solid olive;
+
+  z-index: 997;
+}
+#box4 {
+    position: absolute;
+    margin: auto;
+  	padding: 2vh 1vw 2vh 1vw;
+		top: 432vh;
+		left: 0;
+		right: 0;
+		width: 20vw;
+
+		background-color:#FFEFD5;
     color:black;
     overflow:scroll;
-    z-index: 999;
-
-    -moz-transform: rotate(-20deg) translate(-6px, 0px) skew(31deg, -13deg);
-  -webkit-transform: rotate(-20deg) translate(-6px, 0px) skew(31deg, -13deg);
-  -o-transform: rotate(-20deg) translate(-6px, 0px) skew(31deg, -13deg);
-  -ms-transform: rotate(-20deg) translate(-6px, 0px) skew(31deg, -13deg);
-  transform: rotate(-20deg) translate(-6px, 0px) skew(31deg, -13deg);
+    border-top: 20px solid lightblue;
+    border-right: 20px solid indigo;
+    border-bottom: 20px solid saddlebrown;
+    border-left: 20px solid tomato;
+    z-index: 996;
 }
+#box5 {
+    position: absolute;
+    margin: auto;
+		padding: 2vh 1vw 2vh 1vw;
+		top: 481vh;
+		left: 0;
+		right: 0;
+		width: 20vw;
+
+		background-color: darkred;
+    color: white;
+    overflow:scroll;
+    border-top: 20px solid lime;
+    border-right: 20px solid lightseagreen;
+    border-bottom: 20px solid lightcoral;
+    border-left: 20px solid magenta;
+    z-index: 995;
+}
+/*
+-moz-transform: rotate(27deg) translate(-6px, 6px) skew(-17deg, 172deg);
+-webkit-transform: rotate(27deg) translate(-6px, 6px) skew(-17deg, 172deg);
+-o-transform: rotate(27deg) translate(-6px, 6px) skew(-17deg, 172deg);
+-ms-transform: rotate(27deg) translate(-6px, 6px) skew(-17deg, 172deg);
+transform: rotate(27deg) translate(-6px, 6px) skew(-17deg, 172deg);
+
+-moz-transform: rotate(-12deg) translate(-6px, 0px) skew(189deg, -13deg);
+-webkit-transform: rotate(-12deg) translate(-6px, 0px) skew(189deg, -13deg);
+-o-transform: rotate(-12deg) translate(-6px, 0px) skew(189deg, -13deg);
+-ms-transform: rotate(-12deg) translate(-6px, 0px) skew(189deg, -13deg);
+transform: rotate(-12deg) translate(-6px, 0px) skew(189deg, -13deg);
+
+-moz-transform: rotate(-20deg) translate(-6px, 0px) skew(31deg, -13deg);
+-webkit-transform: rotate(-20deg) translate(-6px, 0px) skew(31deg, -13deg);
+-o-transform: rotate(-20deg) translate(-6px, 0px) skew(31deg, -13deg);
+-ms-transform: rotate(-20deg) translate(-6px, 0px) skew(31deg, -13deg);
+transform: rotate(-20deg) translate(-6px, 0px) skew(31deg, -13deg);
+*/
 /*--- HANDLING IMAGES */
 #img01 {
     position: absolute;
-    top: 101vh;
-    left: 30vw;
+    top: 198vh;
+    left: 24vw;
     height: 25vh;
     width: 25vw;
 }
 #img02 {
     position: absolute;
-    top: 132vh;
-    right: 12vw;
+    top: 221vh;
+    right: 9vw;
     z-index: 10;
     height: 30vh;
     width: 30vw;
 }
 #img03 {
     position: absolute;
-    top:120vh;
-    left: 10vw;
+    top: 160vh;
+    left: 7vw;
     height: 25vh;
     width: 25vw;
 }
 #img04 {
     position: absolute;
-    top: 170vh;
+    top: 270vh;
     right: 40vw;
     height: 25vh;
     width: 25vw;
 }
 #img05 {
     position: absolute;
-    top: 180vh;
+    top: 250vh;
     left: ;
     height: 25vh;
     width: 25vw;
 }
 #img06 {
     position: absolute;
-    top: 243vh;
-    left: 50vw;
+    top: 343vh;
+    right: 8vw;
     height: 25vh;
     width: 25vw;
 }
 #img07 {
     position: absolute;
-    top: 260vh;
+    top: 360vh;
     left: 29vw;
     height: 15vh;
     width: 15vw;
 }
 #img08 {
     position: absolute;
-    top: 275vh;
+    top: 375vh;
     right: 0;
     height: 25vh;
     width: 25vw;
 }
 #img09 {
     position: absolute;
-    top: 328vh;
+    top: 428vh;
     left: 60vw;
     height: 25vh;
     width: 25vw;
 }
 #img10 {
     position: absolute;
-    top: 311vh;
-    left: ;
+    top: 377vh;
+    left: 2vw;
+    height: 25vh;
+    width: 25vw;
+}
+#img11 {
+    position: absolute;
+    top: 322vh;
+    left: 1vw;
+    height: 25vh;
+    width: 25vw;
+}
+#img12 {
+    position: absolute;
+    top: 270vh;
+    right: 2vw;
     height: 25vh;
     width: 25vw;
 }
