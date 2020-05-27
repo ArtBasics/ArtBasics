@@ -155,6 +155,9 @@ p {
  color: #0000FF;
 }
 /*--- CONTENT BOXES */
+.vidss{
+	padding-bottom: 5vh;
+}
 .mainBOX {
     margin: auto;
     left: 0;
@@ -164,13 +167,13 @@ p {
     margin-bottom: 40px;
 }
 #box0 {
-    background-color:#FF4500;
-    color:white;
+    background-color: peachpuff;
+    color:black;
     overflow:scroll;
-    border-top: 20px solid lightblue;
-    border-right: 20px solid green;
-    border-bottom: 20px solid yellow;
-    border-left: 20px solid violet;
+    border-top: 20px solid plum;
+    border-right: 20px solid mintcream;
+    border-bottom: 20px solid blue;
+    border-left: 20px solid rosybrown;
 }
 #box1 {
     background-color:#FF4500;
