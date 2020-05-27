@@ -52,7 +52,7 @@ table {
 /*--- BACKGROUND */
 body {
   width: 100%;
-  height: ;
+  height: 480vh;
   /*height: 2400px;*/
 	background-color: #F99066;
 	background-image: url("images/pixellogo.svg");
@@ -233,8 +233,8 @@ height: 300px;
     margin: auto;
     padding: 2vh 1vw 2vh 1vw;
 		top: 310vh;
-		left: 0;
-		right: 0;
+		left: 10vw;
+
     width: 20vw;
 
 
@@ -252,7 +252,7 @@ height: 300px;
   position: absolute;
   margin: auto;
 	padding: 2vh 1vw 2vh 1vw;
-	top: 343vh;
+	top: 322vh;
 	left: 0;
 	right: 0;
 	width: 20vw;
@@ -271,9 +271,8 @@ height: 300px;
   position: absolute;
   margin: auto;
   padding: 2vh 1vw 2vh 1vw;
-	top: 387vh;
-	left: 0;
-	right: 0;
+	top: 357vh;
+	right: 10vw;
 	width: 20vw;
 
 	background-color:#00FF7F;
@@ -290,7 +289,7 @@ height: 300px;
     position: absolute;
     margin: auto;
   	padding: 2vh 1vw 2vh 1vw;
-		top: 432vh;
+		top: 400vh;
 		left: 0;
 		right: 0;
 		width: 20vw;
@@ -308,9 +307,8 @@ height: 300px;
     position: absolute;
     margin: auto;
 		padding: 2vh 1vw 2vh 1vw;
-		top: 481vh;
-		left: 0;
-		right: 0;
+		top: 420vh;
+		left: 5vw;
 		width: 20vw;
 
 		background-color: darkred;
