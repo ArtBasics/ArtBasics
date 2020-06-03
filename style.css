@@ -425,6 +425,13 @@ transform: rotate(-20deg) translate(-6px, 0px) skew(31deg, -13deg);
     height: 25vh;
     width: 25vw;
 }
+#img13 {
+    position: absolute;
+    top: 300vh;
+    left: 15vw;
+    height: 25vh;
+    width: 25vw;
+}
 #ad_01 {
     position: fixed;
     bottom: 10vh;
