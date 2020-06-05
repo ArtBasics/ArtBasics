@@ -212,7 +212,6 @@ height: 300px;
 		right: 0;
     width: 30vw;
 
-
 		background-color: peachpuff;
     color:black;
     overflow:scroll;
@@ -232,11 +231,9 @@ height: 300px;
     position: absolute;
     margin: auto;
     padding: 2vh 1vw 2vh 1vw;
-		top: 310vh;
+		top: 320vh;
 		left: 10vw;
-
     width: 20vw;
-
 
 		background-color:#FF4500;
     color:white;
@@ -245,14 +242,13 @@ height: 300px;
     border-right: 20px solid green;
     border-bottom: 20px solid yellow;
     border-left: 20px solid violet;
-
     z-index: 999;
 }
 #box2 {
   position: absolute;
   margin: auto;
 	padding: 2vh 1vw 2vh 1vw;
-	top: 322vh;
+	top: 362vh;
 	left: 0;
 	right: 0;
 	width: 20vw;
@@ -264,14 +260,13 @@ height: 300px;
   border-right: 20px solid brown;
   border-bottom: 20px solid grey;
   border-left: 20px solid orange;
-
   z-index: 998;
 }
 #box3 {
   position: absolute;
   margin: auto;
   padding: 2vh 1vw 2vh 1vw;
-	top: 357vh;
+	top: 397vh;
 	right: 10vw;
 	width: 20vw;
 
@@ -282,14 +277,13 @@ height: 300px;
   border-right: 20px solid ivory;
   border-bottom: 20px solid pink;
   border-left: 20px solid olive;
-
   z-index: 997;
 }
 #box4 {
     position: absolute;
     margin: auto;
   	padding: 2vh 1vw 2vh 1vw;
-		top: 400vh;
+		top: 450vh;
 		left: 0;
 		right: 0;
 		width: 20vw;
@@ -307,7 +301,7 @@ height: 300px;
     position: absolute;
     margin: auto;
 		padding: 2vh 1vw 2vh 1vw;
-		top: 420vh;
+		top: 490vh;
 		left: 5vw;
 		width: 20vw;
 
@@ -429,6 +423,48 @@ transform: rotate(-20deg) translate(-6px, 0px) skew(31deg, -13deg);
     position: absolute;
     top: 300vh;
     left: 15vw;
+    height: 25vh;
+    width: 25vw;
+}
+#img14 {
+    position: absolute;
+    top: 400vh;
+    left: 15vw;
+    height: 25vh;
+    width: 25vw;
+}
+#img15 {
+    position: absolute;
+    top: 170vh;
+    right: 2vw;
+    height: 25vh;
+    width: 25vw;
+}
+#img16 {
+    position: absolute;
+    top: 314vh;
+    left: 40vw;
+    height: 25vh;
+    width: 25vw;
+}
+#img17 {
+    position: absolute;
+    top: 444vh;
+    left: 0vw;
+    height: 25vh;
+    width: 25vw;
+}
+#img18 {
+    position: absolute;
+    top: 438vh;
+    left: 34vw;
+    height: 25vh;
+    width: 25vw;
+}
+#img19 {
+    position: absolute;
+    top: 450vh;
+    right: 0vw;
     height: 25vh;
     width: 25vw;
 }
